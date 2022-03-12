@@ -15,9 +15,7 @@ function user(data, clientCard) {
         
        <div class="d-flex justify-content-center">
            <div class="m-1">
-                <form action="updateStudent.html">
-                    <button class="btn btn-outline-primary" id="updateBtn">Update</button>
-                </form>
+                <a href="updateStudent.html?id=${data[i].id}" class="btn btn-outline-primary d-block" id="updateBtn">Update</a>
             </div>
             <div class="m-1">
                   <button class="btn btn-danger" id="deleteBtn">Delete</button>

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82f51240-5432-4102-8490-d9d690da2e71" name="Changes" comment="" />
+    <list default="true" id="82f51240-5432-4102-8490-d9d690da2e71" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/showData.js" beforeDir="false" afterPath="$PROJECT_DIR$/showData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studentDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/studentDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/updateStudent.js" beforeDir="false" afterPath="$PROJECT_DIR$/updateStudent.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/showData.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/script.js" root0="FORCE_HIGHLIGHTING" />
@@ -25,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/studentDetail.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="25uuwEYg5Lb3YtgZGe2DziyWC2C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,11 +63,22 @@
       <workItem from="1646992600264" duration="3346000" />
       <workItem from="1647011985041" duration="914000" />
       <workItem from="1647021398377" duration="869000" />
-      <workItem from="1647074944968" duration="6308000" />
+      <workItem from="1647074944968" duration="10012000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
