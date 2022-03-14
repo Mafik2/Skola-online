@@ -3,7 +3,6 @@ window.onload = () => {
     let splt = window.location.search.split("=")[1]
     const urlParams = new URLSearchParams(window.location.search)
     const id = urlParams.get('id')
-    //const grade = urlParams.get('grade')
 
     fetch('http://159.223.27.219/bd0b5881-e1bf-482a-8efb-99edc24e8976/students/' + id, {
         method: 'GET'
@@ -36,8 +35,11 @@ window.onload = () => {
   <ul class="list-group list-group-flush">
      <div class="list-group-item d-flex justify-content-between">
        <div>
-       <h4>${data.grades[i].grade}</h4>
+       <h4>Grade: ${data.grades[i].grade}</h4><a>weight: ${data.grades[i].weight} </a>
         </div>
+       <div>
+        <a>${data.grades[i].description}</a>
+</div>
        <div class="d-flex justify-content-between">
        <div class="m-1">
                        <a href="updateGrade.html?id=${id}&grade=${data.grades[i].id}" class="btn btn-outline-primary d-block" id="updateGradeBtn">Update</a>

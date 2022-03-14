@@ -57,7 +57,7 @@ window.onload = () => {
             lastName: lastName.value
         }
 
-        fetch('http://159.223.27.219/bd0b5881-e1bf-482a-8efb-99edc24e8976/students/' + splt, {
+        fetch('http://159.223.27.219/bd0b5881-e1bf-482a-8efb-99edc24e8976/students/' + splt , {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82f51240-5432-4102-8490-d9d690da2e71" name="Changes" comment="Delete grade done">
-      <change afterPath="$PROJECT_DIR$/gradeUpdate.js" afterDir="false" />
+    <list default="true" id="82f51240-5432-4102-8490-d9d690da2e71" name="Changes" comment="working on grade update">
       <change afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/@popperjs/core/LICENSE.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/@popperjs/core/README.md" afterDir="false" />
@@ -473,10 +472,11 @@
       <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_visually-hidden.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_api.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/vendor/_rfs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/updateGrade.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradeUpdate.js" beforeDir="false" afterPath="$PROJECT_DIR$/gradeUpdate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studentDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/studentDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/updateGrade.html" beforeDir="false" afterPath="$PROJECT_DIR$/updateGrade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/updateStudent.js" beforeDir="false" afterPath="$PROJECT_DIR$/updateStudent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -545,7 +545,7 @@
       <workItem from="1647074944968" duration="11542000" />
       <workItem from="1647090306795" duration="14540000" />
       <workItem from="1647242848708" duration="515000" />
-      <workItem from="1647243539603" duration="15323000" />
+      <workItem from="1647243539603" duration="19864000" />
     </task>
     <task id="LOCAL-00001" summary="id">
       <created>1647088378658</created>
@@ -561,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647253914149</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="working on grade update">
+      <created>1647262556432</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647262556432</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,18 +591,7 @@
     <MESSAGE value="uff" />
     <MESSAGE value="Student done" />
     <MESSAGE value="Delete grade done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete grade done" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/studentDetail.js</url>
-          <line>26</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="working on grade update" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on grade update" />
   </component>
 </project>
