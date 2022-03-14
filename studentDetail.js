@@ -16,14 +16,12 @@ window.onload = () => {
     <div class="container-fluid">
         <h1 class="title">${data.firstName} ${data.lastName} </h1>
     </div>
-    <div class="m-2">
+    <div class="m-4">
         <a>email: ${data.email} </a>
     </div>
-    <div class="m-2">
+    <div class="m-3">
         <button class="btn btn-danger" id="deleteBtn">Delete</button>
     </div>
-    <div class="m-1">
-</div>
 </div>
 `;
 
@@ -35,7 +33,7 @@ window.onload = () => {
   <ul class="list-group list-group-flush">
      <div class="list-group-item d-flex justify-content-between">
        <div>
-       <h4>Grade: ${data.grades[i].grade}</h4><a>weight: ${data.grades[i].weight} </a>
+       <h4>Grade: ${data.grades[i].grade * 100}%</h4><a>weight: ${data.grades[i].weight * 100}%</a>
         </div>
        <div>
         <a>${data.grades[i].description}</a>

@@ -14,7 +14,6 @@ window.onload = () => {
             for (let i = 0; i < data.grades.length; i++) {
                 if(data.grades[i].id === grade) {
 
-
                 let gr = document.createElement("div")
                 gr.innerHTML = `
                     <nav class="navbar navbar-light">
@@ -39,9 +38,7 @@ window.onload = () => {
         <button class="btn btn-primary" id="UpdateGradeBtn">Update grade</button>
     </div>
 </div>
-            
-                
-                `;
+`;
                    gradesUpdate.appendChild(gr)
 
                 let out = document.getElementById('gradeUpdate');
