@@ -1,5 +1,6 @@
 window.onload = () => {
 
+    let splt = window.location.search.split("=")[1]
     const urlParams = new URLSearchParams(window.location.search)
     const id = urlParams.get('id')
 
@@ -13,39 +14,38 @@ window.onload = () => {
             names.innerHTML = `
 <nav class="navbar navbar-light">
     <div class="container-fluid">
-        <h1 class="title">Update student  - ${dataInfo.firstName}</h1>
+        <h1 class="title">Update student  - ${dataInfo.firstName} ${dataInfo.lastName}</h1>
     </div>
 </nav>
 <div class="m-5">
     <div class=" m-2">
          <label for="inputEmail">Email address</label>
         <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
-               placeholder="${dataInfo.email}">
+               value="${dataInfo.email}">
     </div>
     <div class=" m-2">
         <label for="firstName">First Name</label>
         <input class="form-control" id="firstName" aria-describedby="firstNameHelp"
-               placeholder="${dataInfo.firstName}">
+               value="${dataInfo.firstName}">
     </div>
     <div class=" m-2">
         <label for="lastName">Last Name</label>
         <input class="form-control" id="lastName" aria-describedby="lastNameHelp"
-               placeholder="${dataInfo.lastName}">
+               value="${dataInfo.lastName}">
     </div>
     <div class="m-2">
             <button class="btn btn-primary" id="updateBtn">Update</button>
     </div>
 </div>`;
-
             console.log("name: " + dataInfo.firstName)
+            let dataInfoiteOut = document.getElementById('writeOut');
             dataInfoiteOut.appendChild(names);
+
+            let updateBtn = document.getElementById('updateBtn');
+            updateBtn.addEventListener('click', updatedataInfoite);
         })
 
-
-    let dataInfoiteOut = document.getElementById('dataInfoiteOut');
-    let updateBtn = document.getElementById('updateBtn');
-    updateBtn.addEventListener('click', updatedataInfoite);
-
+    dataInfoiteOut.appendChild(names);
 
     function updatedataInfoite() {
         let email = document.getElementById('inputEmail');
@@ -57,7 +57,7 @@ window.onload = () => {
             lastName: lastName.value
         }
 
-        fetch('http://159.223.27.219/bd0b5881-e1bf-482a-8efb-99edc24e8976/students' + id, {
+        fetch('http://159.223.27.219/bd0b5881-e1bf-482a-8efb-99edc24e8976/students/' + splt, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'
